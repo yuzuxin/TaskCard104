@@ -1424,18 +1424,25 @@ ol ol {
   margin-bottom: 0;
 }
 .list-unstyled {
-  padding-left: 0;
+  padding-left: 5px;
+  padding-top:30px;
+  margin-left: 75px;
   list-style: none;
+  display: inline-block;
+  font-size: 20px;
 }
 .list-inline {
-  padding-left: 0;
-  margin-left: -5px;
+  padding-left: 5px;
+  padding-top:30px;
+  margin-left: 5px;
   list-style: none;
+  display: inline-block;
+  font-size: 20px;
 }
 .list-inline > li {
   display: inline-block;
   padding-right: 5px;
-  padding-left: 5px;
+  padding-left: 75px;
 }
 dl {
   margin-top: 0;
@@ -2506,10 +2513,9 @@ legend {
   border-bottom: 1px solid #e5e5e5;
 }
 label {
-  display: inline-block;
+
   max-width: 100%;
-  margin-bottom: 5px;
-  font-weight: bold;
+  font-size:20px;
 }
 input[type="search"] {
   -webkit-box-sizing: border-box;
@@ -2518,7 +2524,7 @@ input[type="search"] {
 }
 input[type="radio"],
 input[type="checkbox"] {
-  margin: 4px 0 0;
+  margin: 4px 0 0 85px;
   margin-top: 1px \9;
   line-height: normal;
 }
@@ -2629,7 +2635,7 @@ input[type="search"] {
   }
 }
 .form-group {
-  margin-bottom: 15px;
+  margin-left: 85px;
 }
 .radio,
 .checkbox {
@@ -2641,8 +2647,9 @@ input[type="search"] {
 .radio label,
 .checkbox label {
   min-height: 20px;
-  padding-left: 20px;
+  padding-left: 110px;
   margin-bottom: 0;
+  font-size:16px;
   font-weight: normal;
   cursor: pointer;
 }
