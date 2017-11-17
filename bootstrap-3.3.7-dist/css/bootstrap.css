@@ -3068,6 +3068,9 @@ fieldset[disabled] a.btn {
   background-color: #fff;
   border-color: #ccc;
   margin-top:20px;
+  margin-left: 80px;
+  float: left;
+  margin-bottom: 20px;
 }
 .btn-default:focus,
 .btn-default.focus {
